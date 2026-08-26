@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <configSections>
+    <sectionGroup name="applicationSettings" type="System.Configuration.ApplicationSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" >
+      <section name="SCSMLauncher.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" requirePermission="false" />
+    </sectionGroup>
+  </configSections>
+  <appSettings>
+  </appSettings>
+  <startup>
+    <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.5" />
+  </startup>
+  <system.web>
+    <membership defaultProvider="ClientAuthenticationMembershipProvider">
+      <providers>
+        <add name="ClientAuthenticationMembershipProvider" type="System.Web.ClientServices.Providers.ClientFormsAuthenticationMembershipProvider, System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" serviceUri="" />
+      </providers>
+    </membership>
+    <roleManager defaultProvider="ClientRoleProvider" enabled="true">
+      <providers>
+        <add name="ClientRoleProvider" type="System.Web.ClientServices.Providers.ClientRoleProvider, System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" serviceUri="" cacheTimeout="86400" />
+      </providers>
+    </roleManager>
+  </system.web>
+  <applicationSettings>
+    <SCSMLauncher.Properties.Settings>
+      <setting name="SCSMDevName" serializeAs="String">
+        <value>scsm-dev.example.com</value>
+      </setting>
+      <setting name="SCSMTestName" serializeAs="String">
+        <value>scsm-test.example.com</value>
+      </setting>
+      <setting name="SCSMProdName" serializeAs="String">
+        <value>scsm-prod.example.com</value>
+      </setting>
+      <setting name="SCOMDevName" serializeAs="String">
+        <value>scom-dev.example.com</value>
+      </setting>
+      <setting name="SCOMTestName" serializeAs="String">
+        <value>scom-test.example.com</value>
+      </setting>
+      <setting name="SCOMProdName" serializeAs="String">
+        <value>scom-prod.example.com</value>
+      </setting>
+      <setting name="SCSMLocation" serializeAs="String">
+        <value>C:\Program Files\Microsoft System Center 2012\Service Manager\Microsoft.EnterpriseManagement.ServiceManager.UI.Console.exe</value>
+      </setting>
+      <setting name="SCOMLocation1" serializeAs="String">
+        <value>C:\Program Files\System Center Operations Manager 2012\Console\Microsoft.EnterpriseManagement.Monitoring.Console.exe</value>
+      </setting>
+      <setting name="SCOMLocation2" serializeAs="String">
+        <value>C:\Program Files\System Center 2012\Operations Manager\Console\Microsoft.EnterpriseManagement.Monitoring.Console.exe</value>
+      </setting>
+    </SCSMLauncher.Properties.Settings>
+  </applicationSettings>
+</configuration>

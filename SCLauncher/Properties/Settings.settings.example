@@ -1,0 +1,33 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="SCSMLauncher.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="SCSMDevName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">scsm-dev.example.com</Value>
+    </Setting>
+    <Setting Name="SCSMTestName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">scsm-test.example.com</Value>
+    </Setting>
+    <Setting Name="SCSMProdName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">scsm-prod.example.com</Value>
+    </Setting>
+    <Setting Name="SCOMDevName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">scom-dev.example.com</Value>
+    </Setting>
+    <Setting Name="SCOMTestName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">scom-test.example.com</Value>
+    </Setting>
+    <Setting Name="SCOMProdName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">scom-prod.example.com</Value>
+    </Setting>
+    <Setting Name="SCSMLocation" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\Program Files\Microsoft System Center 2012\Service Manager\Microsoft.EnterpriseManagement.ServiceManager.UI.Console.exe</Value>
+    </Setting>
+    <Setting Name="SCOMLocation1" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\Program Files\System Center Operations Manager 2012\Console\Microsoft.EnterpriseManagement.Monitoring.Console.exe</Value>
+    </Setting>
+    <Setting Name="SCOMLocation2" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\Program Files\System Center 2012\Operations Manager\Console\Microsoft.EnterpriseManagement.Monitoring.Console.exe</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
