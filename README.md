@@ -23,6 +23,10 @@ Live server names were replaced with example hosts (see `App.config.example`). C
 
 Open `SCLauncher.sln` in Visual Studio.
 
+## Requirements
+
+- Visual Studio 2013, .NET Framework 4.5
+
 ## Attribution and provenance
 
 - **Author:** Dave Robinson / VaderConsulting
