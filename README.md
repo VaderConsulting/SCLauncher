@@ -29,6 +29,8 @@ Open `SCLauncher.sln` in Visual Studio.
 
 ## Attribution and provenance
 
+Working copy from my Historical Dev folder.
+
 - **Author:** Dave Robinson / VaderConsulting
 - **Assembly title:** SCSMLauncher
 - **Assembly copyright:** Copyright © 2013
